@@ -1,0 +1,9 @@
+streamlit
+pandas
+scipy.spatial.distance
+numpy
+scipy.sparse
+fuzzywuzzy
+sklearn.neighbors
+string
+warnings
