@@ -1,1 +1,1 @@
-web: sh setup.sh && streamlit run bandrec-streamlit.py
+web: sh setup.sh && streamlit run bandrec-hw.py
