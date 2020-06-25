@@ -1,9 +1,8 @@
 streamlit
 pandas
-scipy.spatial.distance
+scipy
 numpy
-scipy.sparse
 fuzzywuzzy
-sklearn.neighbors
+sklearn
 string
 warnings
