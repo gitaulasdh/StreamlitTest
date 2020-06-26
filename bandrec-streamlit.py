@@ -15,11 +15,11 @@ warnings.filterwarnings("ignore")
 # apresentar números com 3 casas decimais
 pd.set_option('display.float_format', lambda x: '%.3f' % x)
 
-user_data = pd.read_table('usersha1-artmbid-artname-plays_1.tsv',
+user_data = pd.read_table('./usersha1-artmbid-artname-plays_1.tsv',
                           header = None, nrows = 2e7,
                           names = ['users', 'musicbrainz-artist-id', 'artist-name', 'plays'],
                           usecols = ['users', 'artist-name', 'plays'])
-user_profiles = pd.read_table('usersha1-profile.tsv',
+user_profiles = pd.read_table('./usersha1-profile.tsv',
                           header = None,
                           names = ['users', 'gender', 'age', 'country', 'signup'],
                           usecols = ['users', 'country'])
