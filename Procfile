@@ -1,1 +1,1 @@
-web: sh setup.sh && streamlit run --server.enableCORS false --server.port $PORT bandrec-hw.py
+web: sh setup.sh && streamlit run --server.port $PORT bandrec-hw.py
